@@ -1,0 +1,6 @@
+[package]
+name = "pyrate"
+version = "0.1.0"
+authors = ["DD5HT <hendrik@dd5ht.de>"]
+
+[dependencies]
