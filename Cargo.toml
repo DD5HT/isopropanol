@@ -2,7 +2,7 @@
 name = "pyrate"
 version = "0.1.0"
 authors = ["DD5HT <hendrik@dd5ht.de>"]
-publish = false
+publish = true
 
 description = "A cargo python extension in the making"
 license = "MIT License"
