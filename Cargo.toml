@@ -5,6 +5,6 @@ authors = ["DD5HT <hendrik@dd5ht.de>"]
 publish = true
 
 description = "A cargo python extension in the making"
-license = "MIT License"
+license = "MIT"
 
 [dependencies]
