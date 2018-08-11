@@ -1,10 +1,10 @@
 [package]
-name = "pyrate"
-version = "0.1.0"
+name = "isopropanol"
+version = "0.0.1"
 authors = ["DD5HT <hendrik@dd5ht.de>"]
-publish = false
+publish = true
 
-description = "A cargo python extension in the making"
+description = "A file sanitizer written in Rust"
 license = "MIT"
 
 [dependencies]

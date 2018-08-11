@@ -1,16 +1,9 @@
-# pyrate
+# isopropanol
 
-A cargo extension to make it easy to use rust in python
+A file sanitizer written in Rust
 
 ## Usage
 
-Create a new rust/python project:
-
-```cargo new --pyrate```
-
-Build the project:
-
-```cargo build --pyrate```
 
 ## Development
 
