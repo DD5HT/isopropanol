@@ -3,6 +3,10 @@ extern crate structopt;
 
 use std::path::PathBuf;
 
+pub mod removal;
+pub mod shredder;
+pub mod finder;
+
 #[derive(StructOpt, Debug)]
 #[structopt(name = "basic")]
 pub struct Opt {
