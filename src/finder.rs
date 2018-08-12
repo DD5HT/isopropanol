@@ -1,5 +1,5 @@
 use std::path::PathBuf;
 
-fn open_files(file: PathBuf) -> &str {
-    
+fn open_files(file: &PathBuf) -> &str {
+    unimplemented!()
 }
