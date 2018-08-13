@@ -1,12 +1,11 @@
-use std::fs::{metadata, write};
+use std::fs::{metadata, write, remove_file};
 use std::path::PathBuf;
-use std::io::prelude::*;
 
+///Overwrites the given file with zeros and delinks it from the file system
 pub fn shred(file: &PathBuf) {
-    let attr = metadata(file).unwrap().len();
-    println!("{:?} bytes", attr);
+    let length = metadata(file).unwrap().len();
+    let sample: Vec<u8> = vec![0; length as usize];
 
-    let b_slice: &[u8] = &[0,0,0,0];
-
-    write(file, b_slice).unwrap();
+    write(file, sample).expect("Can't override the file");
+    remove_file(file).expect("Can't remove file!")
 }
